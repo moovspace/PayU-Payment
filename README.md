@@ -12,7 +12,12 @@ https://registration-merch-prod.snd.payu.com/boarding/#/registerSandbox/
 ## Usatwienia
 Włącz auto odbiór w panelu klienta PayU
 
-### Import lib comoser
+### Import with composer
+```bash
+composer require moovspace/payu:4.0 --no-dev
+```
+
+### Import lib in json
 ```json
 "require": {
         "moovspace/payu": "v4.0"
