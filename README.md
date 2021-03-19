@@ -13,10 +13,14 @@ https://registration-merch-prod.snd.payu.com/boarding/#/registerSandbox/
 Włącz auto odbiór w panelu klienta PayU
 
 ### Import lib comoser
-```bash
+```json
 "require": {
-        "moovspace/payu": "v3.0"
-},
+        "moovspace/payu": "v4.0"
+}
+```
+### Or 
+```json
+,
 "repositories": [
 	{
 		"type": "vcs",
