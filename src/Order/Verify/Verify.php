@@ -92,7 +92,7 @@ class Verify
         }
 
         // Clear cache if error
-        // Credentials::ClearCacheToken();
+        Credentials::ClearCacheToken();
 
         // Error token response status:UNAUTHORIZED
         throw new Exception(ResponseError::Get($httpStatus, $data), 9999);
